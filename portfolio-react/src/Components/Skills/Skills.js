@@ -1,4 +1,5 @@
 import React from 'react';
+import './Skills.css';
 
 function Skills(props) {
 	// const skillsIcons = {
@@ -30,6 +31,7 @@ function Skills(props) {
 					<h2 className='skills-category-heading'>Porgramming Languages</h2>
 					<li className='skill-list-item'>
 						<img
+							className='skill-icon-img'
 							src={require('../../assets/Skills-icons/Python-icon.png')}
 							alt='python icon'
 						/>
@@ -38,6 +40,7 @@ function Skills(props) {
 
 					<li className='skill-list-item'>
 						<img
+							className='skill-icon-img'
 							src={require('../../assets/Skills-icons/JS-icon.png')}
 							alt=''
 						/>
@@ -45,25 +48,42 @@ function Skills(props) {
 					</li>
 					<li className='skill-list-item'>
 						<img
+							className='skill-icon-img'
 							src={require('../../assets/Skills-icons/ionic-react-icon-react-native-pngreact-logo-free-transparent-png-images-pngaaacom.png')}
 							alt=''
 						/>
 						React
 					</li>
 					<li className='skill-list-item'>
-						<img src={require('')} alt='' />
+						<img
+							className='skill-icon-img'
+							src={require('../../assets/Skills-icons/Java-icon.png')}
+							alt=''
+						/>
 						Java
 					</li>
 					<li className='skill-list-item'>
-						<img src={require('')} alt='' />
+						<img
+							className='skill-icon-img'
+							src={require('../../assets/Skills-icons/HTML-icon.png')}
+							alt=''
+						/>
 						HTML
 					</li>
 					<li className='skill-list-item'>
-						<img src={require('')} alt='' />
+						<img
+							className='skill-icon-img'
+							src={require('../../assets/Skills-icons/CSS-icon.png')}
+							alt=''
+						/>
 						CSS
 					</li>
 					<li className='skill-list-item'>
-						<img src={require('')} alt='' />
+						<img
+							className='skill-icon-img'
+							src={require('../../assets/Skills-icons/bootstrap-lcon.png')}
+							alt=''
+						/>
 						Bootstrap
 					</li>
 				</div>
@@ -72,31 +92,59 @@ function Skills(props) {
 						Frameworks and Databases and other programs
 					</h2>
 					<li className='skill-list-item'>
-						<img src={require('')} alt='' />
+						<img
+							className='skill-icon-img'
+							src={require('../../assets/Skills-icons/Django-icon.jpeg')}
+							alt=''
+						/>
 						Django
 					</li>
 					<li className='skill-list-item'>
-						<img src={require('')} alt='' />
+						<img
+							className='skill-icon-img'
+							src={require('../../assets/Skills-icons/Spring-icon.png')}
+							alt=''
+						/>
 						Spring Boot
 					</li>
 					<li className='skill-list-item'>
-						<img src={require('')} alt='' />
+						<img
+							className='skill-icon-img'
+							src={require('../../assets/Skills-icons/node-js-javascript-npm-express-js-sharp.png')}
+							alt=''
+						/>
 						Node Express
 					</li>
 					<li className='skill-list-item'>
-						<img src={require('')} alt='' />
+						<img
+							className='skill-icon-img'
+							src={require('../../assets/Skills-icons/MongoDB-icon.webp')}
+							alt=''
+						/>
 						MongoDB
 					</li>
 					<li className='skill-list-item'>
-						<img src={require('')} alt='' />
+						<img
+							className='skill-icon-img'
+							src={require('../../assets/Skills-icons/png-transparent-postgresql-logo-computer-software-database-open-source-s-text-head-snout.webp')}
+							alt=''
+						/>
 						PostgreSQL
 					</li>
 					<li className='skill-list-item'>
-						<img src={require('')} alt='' />
+						<img
+							className='skill-icon-img'
+							src={require('../../assets/Skills-icons/Matlab-lcon.png')}
+							alt=''
+						/>
 						Matlab
 					</li>
 					<li className='skill-list-item'>
-						<img src={require('')} alt='' />
+						<img
+							className='skill-icon-img'
+							src={require('../../assets/Skills-icons/solidworks-icon.png')}
+							alt=''
+						/>
 						SolidWorks
 					</li>
 				</div>
