@@ -26,9 +26,14 @@ function Skills(props) {
 			<div className='skills-header'>
 				<h1>My Skills</h1>
 			</div>
+			<h2 className='skills-category-heading regular-screen'>
+				Porgramming Languages
+			</h2>
 			<div className='skill-list-container'>
-				<h2 className='skills-category-heading'>Porgramming Languages</h2>
 				<div className='lang-container'>
+					<h2 className='skills-category-heading small-screen'>
+						Porgramming Languages
+					</h2>
 					<div className='skill-list-item python'>
 						<img
 							className='skill-icon-img'
@@ -87,10 +92,13 @@ function Skills(props) {
 						Bootstrap
 					</div>
 				</div>
-				<h2 className='skills-category-heading'>
+				<h2 className='skills-category-heading regular-screen'>
 					Frameworks and Databases and other programs
 				</h2>
 				<div className='framework-container'>
+					<h2 className='skills-category-heading small-screen'>
+						Frameworks and Databases and other programs
+					</h2>
 					<div className='skill-list-item'>
 						<img
 							className='skill-icon-img'
