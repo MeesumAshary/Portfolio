@@ -1,24 +1,39 @@
 import React from 'react';
+import './Contact.css';
 
 function Contact(props) {
 	return (
-		<div>
-			<form>
-				<label class='your-name'>
-					Your Name:
-					<input id='your-name' type='name' name='email' type='text' />
-				</label>
-				<label class='your-email'>
-					Your email:
-					<input id='your-email' type='email' name='email' type='text' />
-				</label>
-				<label class='your-message'>
-					Your message:
-					<textarea id='textarea-message' name='message' type='text'></textarea>
-				</label>
-
-				<button type='submit'>Send</button>
-			</form>
+		<div className='contact-page-container'>
+			<h1>Contact Me!</h1>
+			<div className='social-container'>
+				<a href='mailto:meesumashary@gmail.com' className='social'>
+					<div className='social-img-wrapper'>
+						<img
+							className='social-icon'
+							src={require('../../assets/Gmail.png')}
+							alt=''
+						/>
+					</div>
+				</a>
+				<a href='https://github.com/MeesumAshary' className='social'>
+					<div className='social-img-wrapper'>
+						<img
+							className='social-icon'
+							src={require('../../assets/GitHub-logo.png')}
+							alt=''
+						/>
+					</div>
+				</a>
+				<a href='https://www.linkedin.com/in/meesumashary/' className='social'>
+					<div className='social-img-wrapper'>
+						<img
+							className='social-icon'
+							src={require('../../assets/LinkedIn-logo.png')}
+							alt=''
+						/>
+					</div>
+				</a>
+			</div>
 		</div>
 	);
 }

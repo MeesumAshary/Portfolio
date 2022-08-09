@@ -1,20 +1,15 @@
-:root{
-    --primary: #FFCE00;
-    --secondary: #FE4880;
-    --dark: #212121;
-    --light: #F3F3F3;
-}
-
 .project-page-container{
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    margin-top: 5em;
 }
 
 
 .card{
-    height: 60%;
+    height: 0%;
     width: 40%;
     margin: 2em;
     box-shadow:0 5px 15px 0 black;
@@ -22,6 +17,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color:black
 
 }
 .card-header{
@@ -66,5 +62,6 @@
 .card-rd-list{
     list-style-type: none;
     display: inline-block;
+    
     
 }

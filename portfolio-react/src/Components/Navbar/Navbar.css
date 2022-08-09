@@ -5,13 +5,19 @@ nav{
     grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
     list-style: none;
     width: 100%;
-    line-height: 4
+    line-height: 4;
+    background: #fffcf2;
 
 }
 
 .nav-link {
     text-decoration: none;
     color: black;
+}
+
+.nav-list{
+    font-size:1.2em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
