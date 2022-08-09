@@ -35,6 +35,10 @@
 
 }
 
+.small-screen{
+    display:none
+}
+
 .skill-list-item{
     width: 20%;
     display:flex;
@@ -43,5 +47,39 @@
     align-items: center;
     padding: 2em;
     font-weight:bolder ;
+    /* box-shadow: 0 5px 15px 0 black; */
     
+}
+
+@media (max-width: 800px) {
+    .skill-list-container{
+        display:flex;
+        flex-direction: row;
+    }
+
+    .lang-container,
+    .framework-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .regular-screen{
+        display:none
+    }
+
+    .small-screen{
+        display: flex;
+    }
+
+}
+
+@media(max-width: 500px){
+    .skill-list-container{
+        flex-direction: column;
+    }
 }

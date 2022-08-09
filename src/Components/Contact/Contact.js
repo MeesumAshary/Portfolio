@@ -4,7 +4,7 @@ import './Contact.css';
 function Contact(props) {
 	return (
 		<div className='contact-page-container'>
-			<h1>Contact Me!</h1>
+			<h1 className='contact-heading'>Get in Touch!</h1>
 			<div className='social-container'>
 				<a href='mailto:meesumashary@gmail.com' className='social'>
 					<div className='social-img-wrapper'>

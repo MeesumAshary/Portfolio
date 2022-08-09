@@ -17,7 +17,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color:black
+    color:black;
+    background: rgb(255,252,242)
 
 }
 .card-header{
@@ -64,4 +65,44 @@
     display: inline-block;
     
     
+}
+
+@media (max-width: 740px) {
+   .project-page-container{
+        display: flex;
+        flex-direction: column;
+   }
+
+   .card{
+    width: 70%;
+   }
+
+}
+
+@media (max-width: 450px) {
+    .project-page-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 80%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .project-page-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 90%;
+        margin-left:0;
+        margin-right: 0;
+    }
+
 }
