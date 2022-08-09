@@ -1,0 +1,44 @@
+:root{
+    --primary: #FFCE00;
+    --secondary: #FE4880;
+    --dark: #212121;
+    --light: #F3F3F3;
+}
+
+.project-page-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.card{
+    height: 40%;
+    width: 40%;
+    margin: 2em;
+    box-shadow:0 5px 15px 0 black;
+
+}
+.card-header{
+    height: 70%;
+    width: 100%;
+    border-bottom: 0.2em solid black;
+}
+
+.card-img-wrapper{
+    height: 90%;
+    width: 100%;
+}
+
+.card-img{
+    height:100%;
+    width:100%;
+    padding: 1em;
+
+}
+
+.card-rd-list{
+    list-style-type: none;
+    
+}
