@@ -1,5 +1,6 @@
 .project-page-container{
     height: 100%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -9,7 +10,7 @@
 
 
 .card{
-    height: 0%;
+    height: 60%;
     width: 40%;
     margin: 2em;
     box-shadow:0 5px 15px 0 black;
