@@ -27,12 +27,12 @@ function Skills(props) {
 				<h1>My Skills</h1>
 			</div>
 			<h2 className='skills-category-heading regular-screen'>
-				Porgramming Languages
+				Programming Languages
 			</h2>
 			<div className='skill-list-container'>
 				<div className='lang-container'>
 					<h2 className='skills-category-heading small-screen'>
-						Porgramming Languages
+						Programming Languages
 					</h2>
 					<div className='skill-list-item python'>
 						<img
